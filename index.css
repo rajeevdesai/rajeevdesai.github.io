@@ -1,0 +1,57 @@
+body {
+  width: 50%;
+  margin: auto;
+}
+
+.profile-pic {
+  text-align: center;
+  margin-top: 10vh;
+}
+
+.info {
+  padding: 2%;
+  text-align: center;
+  font-family: 'Itim', sans-serif;
+}
+
+.basic-info {
+  font-size: 3em;
+}
+
+.name {
+  border-bottom: 3px solid;
+}
+
+.more-info {
+  margin-top: 3vh;
+  font-size: 1em;
+}
+
+.social-info {
+  font-size: 2em;
+}
+
+.social-info i {
+  margin-top: 3vh;
+  margin-right: 2vw;
+}
+
+.fa-envelope-o {
+  color: #DB3236;
+}
+
+.fa-stack-overflow {
+  color: #F48024;
+}
+
+.fa-linkedin {
+  color: #0077B5;
+}
+
+.fa-github {
+  color: #333333;
+}
+
+.fa-twitter {
+  color: #1DA1F2;
+}
