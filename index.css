@@ -1,49 +1,64 @@
 body {
-  width: 80%;
-  margin: auto;
-}
-
-@media only screen and (min-width: 1085px) {
-  body {
-    width: 50%;
-  }
-}
-
-.profile-pic {
-  text-align: center;
-  margin-top: 10vh;
+  margin: 0px;
+  background-color: #ffffff;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cg fill='%235e554b' fill-opacity='0.03'%3E%3Cpolygon fill-rule='evenodd' points='8 4 12 6 8 8 6 12 4 8 0 6 4 4 6 0 8 4'/%3E%3C/g%3E%3C/svg%3E");
 }
 
 .info {
-  padding: 2%;
-  text-align: center;
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Crimson Text', serif;
 }
 
 .basic-info {
-  font-size: 3em;
+  position: relative;
+  width: 50vw;
+  height: 100vh;
+  font-size: 4em;
+  color: #ffffff;
+  background-color: #222222f0;
 }
 
-.name {
-  border-bottom: 3px solid;
-  border-bottom-color: #008000;
+.basic-info p {
+  position: absolute;
+  top: 30vh;
+  left: 10vw;
+}
+
+.blog {
+  position: absolute;
+  top: 5vh;
+  left: 92vw;
+}
+
+.blog a {
+  color: #000000;
+  text-decoration: none;
+  font-size: 1.5em;
 }
 
 .more-info {
-  margin-top: 3vh;
+  position: absolute;
+  top: 25vh;
+  left: 55vw;
+  max-width: 42vw;
   font-size: 1.3em;
 }
 
 .social-info {
+  position: absolute;
+  top: 72vh;
+  left: 55vw;
   font-size: 2em;
 }
 
 .social-info i {
-  margin-top: 3vh;
   margin-right: 2vw;
 }
 
-.fa-envelope-o {
+.social-info i:hover {
+  color: #000000;
+}
+
+.fa-envelope {
   color: #DB3236;
 }
 
@@ -61,4 +76,8 @@ body {
 
 .fa-twitter {
   color: #1DA1F2;
+}
+
+.fa-dev {
+  color: #333333;
 }
