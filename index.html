@@ -2,28 +2,54 @@
 <html>
   <head>
     <title>Rajeev Desai</title>
-    <link rel="stylesheet" type="text/css" href="index.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/05bdf02244.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito">
+    <meta charset="UTF-8">
+    
+    <!-- SEO Info -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Software Engineer at Finoramic, Inc" />
+    <meta name="keywords" content="Personal Website, Finoramic">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" type="text/css" href="styles/index.css">
+    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/solid.css"> -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/regular.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/brands.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/fontawesome.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Crimson+Text">
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
   </head>
   <body>
-    <div class="profile-pic">
-      <img src="Profile_Picture.png" height="200" width="200">
-    </div>
     <div class="info">
       <div class="basic-info">
-        Hello, I'm Rajeev Desai.
+        <p>Hello, 👋<br/> I'm Rajeev Desai.</p>
+      </div>
+      <div class="blog">
+        <a href="https://medium.com/@rajeevdesai">Blog<!-- <i class="fas fa-long-arrow-alt-right" aria-hidden="true"></i>--></a>
       </div>
       <div class="more-info">
-        I currently work as a Full Stack Engineer at Finoramic, Inc.<br/>
+        <p>
+          I'm a Software Engineer and Tech Enthusiast. I design and build backend code and infrastructure. I also dabble around with Product Design and UI/UX. I currently work at Finoramic, Inc (<span id="timeSpentAtFinoramic"></span> now). We are solving the problem of financial management for users using modern technological tools.<br/>
+          Prior to that, I worked at IBM India Software labs for 6 months as Hybrid Cloud Intern where I developed IBM® Cloud Automation Manager.<br/><br/>
+          My alma mater is VIT, Chennai. I really grew as a person from my experiences here. My major was Software Engineering.<br/><br/>
+          You can find me online at
+        </p>
       </div>
       <div class="social-info">
-        <a href="mailto:rajeevdesai94@gmail.com"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
-        <a href="https://stackoverflow.com/users/6304537/rajeev-desai?tab=profile"><i class="fa fa-stack-overflow" aria-hidden="true"></i></a>
-        <a href="https://www.linkedin.com/in/rajeevdesai/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-        <a href="https://www.github.com/rajeevdesai"><i class="fa fa-github" aria-hidden="true"></i></a>
-        <a href="https://www.twitter.com/rajeevdesai"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+        <a href="mailto:rajeevdesai94@gmail.com"><i class="far fa-envelope" aria-hidden="true"></i></a>
+        <a href="https://stackoverflow.com/users/6304537/rajeev-desai?tab=profile"><i class="fab fa-stack-overflow" aria-hidden="true"></i></a>
+        <a href="https://www.linkedin.com/in/rajeevdesai/"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+        <a href="https://www.github.com/rajeevdesai"><i class="fab fa-github" aria-hidden="true"></i></a>
+        <a href="https://www.twitter.com/rajeevdesai"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+        <a href="https://dev.to/rajeevdesai"><i class="fab fa-dev" aria-hidden="true"></i></a>
       </div>
     </div>
+    <script>
+      const startDate = new Date('2017-08-14T10:38:00.0530');
+      const timeSpentAtFinoramic = moment(startDate).toNow(true);
+      const timeSpentAtFinoramicSpan = document.getElementById('timeSpentAtFinoramic');
+      timeSpentAtFinoramicSpan.innerHTML = timeSpentAtFinoramic;
+    </script>
   </body>
 </html>
