@@ -1,0 +1,53 @@
+body {
+  display: flex;
+  flex-direction: row;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.illustration {
+  width: 50vw;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  text-align: center;
+}
+
+.illustration img {
+  width: 599px;
+  height: 600px;
+}
+
+.text {
+  width: 50vw;
+  max-width: 40vw;
+  position: absolute;
+  top: 45%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+  font-size: 1.5rem;
+}
+
+.email {
+  /* text-decoration: none; */
+  color: black;
+}
+
+.icons {
+  letter-spacing: 0.75rem;
+}
+
+.fa-github {
+  color: #333333;
+}
+
+.fa-stack-overflow {
+  color: #F48024;
+}
+
+.fa-linkedin {
+  color: #0077B5;
+}
+
+.fa-twitter {
+  color: #1DA1F2;
+}
