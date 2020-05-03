@@ -52,3 +52,18 @@ body {
 .fa-twitter {
   color: #1DA1F2;
 }
+
+@media only screen and (max-width: 1200px) {
+  .illustration {
+    display: none;
+  }
+
+  .text {
+    width: auto;
+    max-width: 100%;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
