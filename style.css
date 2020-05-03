@@ -2,6 +2,7 @@ body {
   display: flex;
   flex-direction: row;
   font-family: 'Source Sans Pro', sans-serif;
+  max-width: 100%;
 }
 
 .illustration {
@@ -33,6 +34,7 @@ body {
 
 .icons {
   letter-spacing: 0.75rem;
+  font-size: 2rem;
 }
 
 .fa-github {
